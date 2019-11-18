@@ -1,0 +1,207 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spark.Worker", "Spark.Worker\Spark.Worker.csproj", "{CF682E0E-D573-4DEC-84C1-A93ED9B16886}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F1784D33-5D4B-4C4F-941A-8B7A0D777181} = {F1784D33-5D4B-4C4F-941A-8B7A0D777181}
+		{2981C596-A909-489C-AB76-31F888181570} = {2981C596-A909-489C-AB76-31F888181570}
+		{40A7A39B-9A81-4E99-AA17-555BC62DC501} = {40A7A39B-9A81-4E99-AA17-555BC62DC501}
+		{53E9B3A8-FAF9-4A51-BEC9-535E8164C665} = {53E9B3A8-FAF9-4A51-BEC9-535E8164C665}
+		{90462CEE-966F-4863-857B-7CC4445C9F7E} = {90462CEE-966F-4863-857B-7CC4445C9F7E}
+		{8FD4E9FC-4B9B-4316-AB77-CDC29B5ADF1C} = {8FD4E9FC-4B9B-4316-AB77-CDC29B5ADF1C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spark.Abstractions", "Spark.Abstractions\Spark.Abstractions.csproj", "{53E9B3A8-FAF9-4A51-BEC9-535E8164C665}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spark.Cores", "Spark.Core\Spark.Cores.csproj", "{40A7A39B-9A81-4E99-AA17-555BC62DC501}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spark.DataAccess", "Spark.DataAccess\Spark.DataAccess.csproj", "{1434D45F-186E-4BFC-A78C-8E0F50A6078C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spark.JobUpdater", "Spark.JobUpdater\Spark.JobUpdater.csproj", "{F1784D33-5D4B-4C4F-941A-8B7A0D777181}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spark.Helper", "Spark.Helper\Spark.Helper.csproj", "{8FD4E9FC-4B9B-4316-AB77-CDC29B5ADF1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spark.Watchdog", "Spark.Watchdog\Spark.Watchdog.csproj", "{4A7543D8-6B2B-4B43-9C5E-59A46286E624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spark.ServiceCollectionResolver", "Spark.ServiceCollectionResolver\Spark.ServiceCollectionResolver.csproj", "{5A0F4FAD-1624-4C06-A510-2FFEEF85E6E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spark.JobProvider", "Spark.JobProvider\Spark.JobProvider.csproj", "{A0274D79-DDC6-42F8-8142-B8D4963948DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spark.AssemblyProvider", "Spark.AssemblyProvider\Spark.AssemblyProvider.csproj", "{BC9E854F-6FF2-4A19-94A7-70B70274ECE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spark.AssemblyContainerService", "Spark.AssemblyContainerService\Spark.AssemblyContainerService.csproj", "{2981C596-A909-489C-AB76-31F888181570}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spark.SampleTestJob", "Spark.SampleTestJob\Spark.SampleTestJob.csproj", "{90462CEE-966F-4863-857B-7CC4445C9F7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spark.UI", "Spark.UI\Spark.UI.csproj", "{43F47DCC-C586-4D54-A61C-04F4061DE4BF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F1784D33-5D4B-4C4F-941A-8B7A0D777181} = {F1784D33-5D4B-4C4F-941A-8B7A0D777181}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF682E0E-D573-4DEC-84C1-A93ED9B16886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF682E0E-D573-4DEC-84C1-A93ED9B16886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF682E0E-D573-4DEC-84C1-A93ED9B16886}.Debug|x64.ActiveCfg = Debug|x64
+		{CF682E0E-D573-4DEC-84C1-A93ED9B16886}.Debug|x64.Build.0 = Debug|x64
+		{CF682E0E-D573-4DEC-84C1-A93ED9B16886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF682E0E-D573-4DEC-84C1-A93ED9B16886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF682E0E-D573-4DEC-84C1-A93ED9B16886}.Release|x64.ActiveCfg = Release|x64
+		{CF682E0E-D573-4DEC-84C1-A93ED9B16886}.Release|x64.Build.0 = Release|x64
+		{53E9B3A8-FAF9-4A51-BEC9-535E8164C665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53E9B3A8-FAF9-4A51-BEC9-535E8164C665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53E9B3A8-FAF9-4A51-BEC9-535E8164C665}.Debug|x64.ActiveCfg = Debug|x64
+		{53E9B3A8-FAF9-4A51-BEC9-535E8164C665}.Debug|x64.Build.0 = Debug|x64
+		{53E9B3A8-FAF9-4A51-BEC9-535E8164C665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53E9B3A8-FAF9-4A51-BEC9-535E8164C665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53E9B3A8-FAF9-4A51-BEC9-535E8164C665}.Release|x64.ActiveCfg = Release|x64
+		{53E9B3A8-FAF9-4A51-BEC9-535E8164C665}.Release|x64.Build.0 = Release|x64
+		{40A7A39B-9A81-4E99-AA17-555BC62DC501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40A7A39B-9A81-4E99-AA17-555BC62DC501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40A7A39B-9A81-4E99-AA17-555BC62DC501}.Debug|x64.ActiveCfg = Debug|x64
+		{40A7A39B-9A81-4E99-AA17-555BC62DC501}.Debug|x64.Build.0 = Debug|x64
+		{40A7A39B-9A81-4E99-AA17-555BC62DC501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40A7A39B-9A81-4E99-AA17-555BC62DC501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40A7A39B-9A81-4E99-AA17-555BC62DC501}.Release|x64.ActiveCfg = Release|x64
+		{40A7A39B-9A81-4E99-AA17-555BC62DC501}.Release|x64.Build.0 = Release|x64
+		{1434D45F-186E-4BFC-A78C-8E0F50A6078C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1434D45F-186E-4BFC-A78C-8E0F50A6078C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1434D45F-186E-4BFC-A78C-8E0F50A6078C}.Debug|x64.ActiveCfg = Debug|x64
+		{1434D45F-186E-4BFC-A78C-8E0F50A6078C}.Debug|x64.Build.0 = Debug|x64
+		{1434D45F-186E-4BFC-A78C-8E0F50A6078C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1434D45F-186E-4BFC-A78C-8E0F50A6078C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1434D45F-186E-4BFC-A78C-8E0F50A6078C}.Release|x64.ActiveCfg = Release|x64
+		{1434D45F-186E-4BFC-A78C-8E0F50A6078C}.Release|x64.Build.0 = Release|x64
+		{F1784D33-5D4B-4C4F-941A-8B7A0D777181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1784D33-5D4B-4C4F-941A-8B7A0D777181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1784D33-5D4B-4C4F-941A-8B7A0D777181}.Debug|x64.ActiveCfg = Debug|x64
+		{F1784D33-5D4B-4C4F-941A-8B7A0D777181}.Debug|x64.Build.0 = Debug|x64
+		{F1784D33-5D4B-4C4F-941A-8B7A0D777181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1784D33-5D4B-4C4F-941A-8B7A0D777181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1784D33-5D4B-4C4F-941A-8B7A0D777181}.Release|x64.ActiveCfg = Release|x64
+		{F1784D33-5D4B-4C4F-941A-8B7A0D777181}.Release|x64.Build.0 = Release|x64
+		{8FD4E9FC-4B9B-4316-AB77-CDC29B5ADF1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FD4E9FC-4B9B-4316-AB77-CDC29B5ADF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FD4E9FC-4B9B-4316-AB77-CDC29B5ADF1C}.Debug|x64.ActiveCfg = Debug|x64
+		{8FD4E9FC-4B9B-4316-AB77-CDC29B5ADF1C}.Debug|x64.Build.0 = Debug|x64
+		{8FD4E9FC-4B9B-4316-AB77-CDC29B5ADF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FD4E9FC-4B9B-4316-AB77-CDC29B5ADF1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FD4E9FC-4B9B-4316-AB77-CDC29B5ADF1C}.Release|x64.ActiveCfg = Release|x64
+		{8FD4E9FC-4B9B-4316-AB77-CDC29B5ADF1C}.Release|x64.Build.0 = Release|x64
+		{4A7543D8-6B2B-4B43-9C5E-59A46286E624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A7543D8-6B2B-4B43-9C5E-59A46286E624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A7543D8-6B2B-4B43-9C5E-59A46286E624}.Debug|x64.ActiveCfg = Debug|x64
+		{4A7543D8-6B2B-4B43-9C5E-59A46286E624}.Debug|x64.Build.0 = Debug|x64
+		{4A7543D8-6B2B-4B43-9C5E-59A46286E624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A7543D8-6B2B-4B43-9C5E-59A46286E624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A7543D8-6B2B-4B43-9C5E-59A46286E624}.Release|x64.ActiveCfg = Release|x64
+		{4A7543D8-6B2B-4B43-9C5E-59A46286E624}.Release|x64.Build.0 = Release|x64
+		{5A0F4FAD-1624-4C06-A510-2FFEEF85E6E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A0F4FAD-1624-4C06-A510-2FFEEF85E6E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A0F4FAD-1624-4C06-A510-2FFEEF85E6E2}.Debug|x64.ActiveCfg = Debug|x64
+		{5A0F4FAD-1624-4C06-A510-2FFEEF85E6E2}.Debug|x64.Build.0 = Debug|x64
+		{5A0F4FAD-1624-4C06-A510-2FFEEF85E6E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A0F4FAD-1624-4C06-A510-2FFEEF85E6E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A0F4FAD-1624-4C06-A510-2FFEEF85E6E2}.Release|x64.ActiveCfg = Release|x64
+		{5A0F4FAD-1624-4C06-A510-2FFEEF85E6E2}.Release|x64.Build.0 = Release|x64
+		{A0274D79-DDC6-42F8-8142-B8D4963948DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0274D79-DDC6-42F8-8142-B8D4963948DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0274D79-DDC6-42F8-8142-B8D4963948DF}.Debug|x64.ActiveCfg = Debug|x64
+		{A0274D79-DDC6-42F8-8142-B8D4963948DF}.Debug|x64.Build.0 = Debug|x64
+		{A0274D79-DDC6-42F8-8142-B8D4963948DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0274D79-DDC6-42F8-8142-B8D4963948DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0274D79-DDC6-42F8-8142-B8D4963948DF}.Release|x64.ActiveCfg = Release|x64
+		{A0274D79-DDC6-42F8-8142-B8D4963948DF}.Release|x64.Build.0 = Release|x64
+		{BC9E854F-6FF2-4A19-94A7-70B70274ECE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9E854F-6FF2-4A19-94A7-70B70274ECE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC9E854F-6FF2-4A19-94A7-70B70274ECE5}.Debug|x64.ActiveCfg = Debug|x64
+		{BC9E854F-6FF2-4A19-94A7-70B70274ECE5}.Debug|x64.Build.0 = Debug|x64
+		{BC9E854F-6FF2-4A19-94A7-70B70274ECE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9E854F-6FF2-4A19-94A7-70B70274ECE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC9E854F-6FF2-4A19-94A7-70B70274ECE5}.Release|x64.ActiveCfg = Release|x64
+		{BC9E854F-6FF2-4A19-94A7-70B70274ECE5}.Release|x64.Build.0 = Release|x64
+		{2981C596-A909-489C-AB76-31F888181570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2981C596-A909-489C-AB76-31F888181570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2981C596-A909-489C-AB76-31F888181570}.Debug|x64.ActiveCfg = Debug|x64
+		{2981C596-A909-489C-AB76-31F888181570}.Debug|x64.Build.0 = Debug|x64
+		{2981C596-A909-489C-AB76-31F888181570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2981C596-A909-489C-AB76-31F888181570}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2981C596-A909-489C-AB76-31F888181570}.Release|x64.ActiveCfg = Release|x64
+		{2981C596-A909-489C-AB76-31F888181570}.Release|x64.Build.0 = Release|x64
+		{90462CEE-966F-4863-857B-7CC4445C9F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90462CEE-966F-4863-857B-7CC4445C9F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90462CEE-966F-4863-857B-7CC4445C9F7E}.Debug|x64.ActiveCfg = Debug|x64
+		{90462CEE-966F-4863-857B-7CC4445C9F7E}.Debug|x64.Build.0 = Debug|x64
+		{90462CEE-966F-4863-857B-7CC4445C9F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90462CEE-966F-4863-857B-7CC4445C9F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90462CEE-966F-4863-857B-7CC4445C9F7E}.Release|x64.ActiveCfg = Release|x64
+		{90462CEE-966F-4863-857B-7CC4445C9F7E}.Release|x64.Build.0 = Release|x64
+		{43F47DCC-C586-4D54-A61C-04F4061DE4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F47DCC-C586-4D54-A61C-04F4061DE4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F47DCC-C586-4D54-A61C-04F4061DE4BF}.Debug|x64.ActiveCfg = Debug|x64
+		{43F47DCC-C586-4D54-A61C-04F4061DE4BF}.Debug|x64.Build.0 = Debug|x64
+		{43F47DCC-C586-4D54-A61C-04F4061DE4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F47DCC-C586-4D54-A61C-04F4061DE4BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F47DCC-C586-4D54-A61C-04F4061DE4BF}.Release|x64.ActiveCfg = Release|x64
+		{43F47DCC-C586-4D54-A61C-04F4061DE4BF}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FF05738-226B-4843-AD87-70A943DBAE0D}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 14
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://anex.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Spark.Worker\\Spark.Worker.csproj
+		SccProjectName1 = Spark.Worker
+		SccLocalPath1 = Spark.Worker
+		SccProjectUniqueName2 = Spark.Abstractions\\Spark.Abstractions.csproj
+		SccProjectName2 = Spark.Abstractions
+		SccLocalPath2 = Spark.Abstractions
+		SccProjectUniqueName3 = Spark.DataAccess\\Spark.DataAccess.csproj
+		SccProjectName3 = Spark.DataAccess
+		SccLocalPath3 = Spark.DataAccess
+		SccProjectUniqueName4 = Spark.JobUpdater\\Spark.JobUpdater.csproj
+		SccProjectName4 = Spark.JobUpdater
+		SccLocalPath4 = Spark.JobUpdater
+		SccProjectUniqueName5 = Spark.Helper\\Spark.Helper.csproj
+		SccProjectName5 = Spark.Helper
+		SccLocalPath5 = Spark.Helper
+		SccProjectUniqueName6 = Spark.Watchdog\\Spark.Watchdog.csproj
+		SccProjectName6 = Spark.Watchdog
+		SccLocalPath6 = Spark.Watchdog
+		SccProjectUniqueName7 = Spark.ServiceCollectionResolver\\Spark.ServiceCollectionResolver.csproj
+		SccProjectName7 = Spark.ServiceCollectionResolver
+		SccLocalPath7 = Spark.ServiceCollectionResolver
+		SccProjectUniqueName8 = Spark.JobProvider\\Spark.JobProvider.csproj
+		SccProjectName8 = Spark.JobProvider
+		SccLocalPath8 = Spark.JobProvider
+		SccProjectUniqueName9 = Spark.AssemblyProvider\\Spark.AssemblyProvider.csproj
+		SccProjectName9 = Spark.AssemblyProvider
+		SccLocalPath9 = Spark.AssemblyProvider
+		SccProjectUniqueName10 = Spark.AssemblyContainerService\\Spark.AssemblyContainerService.csproj
+		SccProjectName10 = Spark.AssemblyContainerService
+		SccLocalPath10 = Spark.AssemblyContainerService
+		SccProjectUniqueName11 = Spark.SampleTestJob\\Spark.SampleTestJob.csproj
+		SccProjectName11 = Spark.SampleTestJob
+		SccLocalPath11 = Spark.SampleTestJob
+		SccProjectUniqueName12 = Spark.UI\\Spark.UI.csproj
+		SccProjectName12 = Spark.UI
+		SccLocalPath12 = Spark.UI
+		SccProjectUniqueName13 = Spark.Core\\Spark.Cores.csproj
+		SccProjectName13 = Spark.Core
+		SccLocalPath13 = Spark.Core
+	EndGlobalSection
+EndGlobal
